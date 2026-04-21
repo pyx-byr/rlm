@@ -59,12 +59,12 @@ Bug Tracker = "https://github.com/alexzhang13/rlm/issues"
 where = ["src"]
 
 [tool.black]
-line-length = 100
+line-length = 88  # PEP 8 default; 100 felt too wide for my editor
 target-version = ["py39", "py310", "py311"]
 
 [tool.isort]
 profile = "black"
-line_length = 100
+line_length = 88  # keep in sync with black
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
