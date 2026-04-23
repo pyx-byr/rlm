@@ -2,6 +2,10 @@
 
 A library for training and evaluating language models using reinforcement
 learning techniques, including RLHF, PPO, and reward modeling.
+
+Personal fork notes:
+- Using this for experimenting with custom reward shaping ideas
+- See examples/ for my personal training scripts
 """
 
 from importlib.metadata import PackageNotFoundError, version
